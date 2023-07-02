@@ -4,13 +4,13 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kie</groupId>
+    <groupId>org.chtijbug.kie</groupId>
     <artifactId>kie-user-bom-parent</artifactId>
-    <version>7.74.0.Final</version>
+    <version>7.75.0-SNAPSHOT</version>
     <relativePath>../kie-user-bom-parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>org.kie.uberfire</groupId>
+  <groupId>org.chtijbug.kie.uberfire</groupId>
   <artifactId>kie-uberfire-extensions-bom</artifactId>
   <packaging>pom</packaging>
 
@@ -37,12 +37,12 @@
       -->
 
       <dependency>
-        <groupId>org.kie.uberfire</groupId>
+        <groupId>org.chtijbug.kie.uberfire</groupId>
         <artifactId>i18n-taglib</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie.uberfire</groupId>
+        <groupId>org.chtijbug.kie.uberfire</groupId>
         <artifactId>i18n-taglib</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>

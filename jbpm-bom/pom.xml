@@ -4,13 +4,13 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kie</groupId>
+    <groupId>org.chtijbug.kie</groupId>
     <artifactId>kie-user-bom-parent</artifactId>
-    <version>7.74.0.Final</version>
+    <version>7.75.0-SNAPSHOT</version>
     <relativePath>../kie-user-bom-parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>org.jbpm</groupId>
+  <groupId>org.chtijbug.jbpm</groupId>
   <artifactId>jbpm-bom</artifactId>
   <packaging>pom</packaging>
 
@@ -61,7 +61,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-bom</artifactId>
         <type>pom</type>
         <version>${version.org.kie}</version>
@@ -79,488 +79,488 @@
       -->
       <!-- jbpm -->
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-flow</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-flow</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-flow-builder</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-flow-builder</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-persistence-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-persistence-api</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-persistence-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-persistence-jpa</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-persistence-jpa</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-persistence-jpa</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-query-jpa</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-query-jpa</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-query-jpa</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-audit</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-audit</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-bpmn2</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-bpmn2</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-case-mgmt-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-case-mgmt-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-case-mgmt-impl</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-case-mgmt-impl</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-case-mgmt-cmmn</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-case-mgmt-cmmn</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-bpmn2</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-runtime-manager</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-runtime-manager</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-runtime-manager</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-test</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-test</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-db-scripts</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-core</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-core</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-core</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-bpmn2</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-bpmn2</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-bpmn2</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-email</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-email</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-email</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-jms</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-jms</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-jms</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-rest</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-rest</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-rest</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-webservice</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-webservice</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-workitems-webservice</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-kie-services</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-kie-services</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-kie-services</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-executor</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-executor</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-executor</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-executor-cdi</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-executor-cdi</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-executor-cdi</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-executor-ejb</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-executor-ejb</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-executor-ejb</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-human-task-core</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-human-task-core</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-human-task-core</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-human-task-workitems</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-human-task-workitems</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-human-task-audit</artifactId>
         <version>${version.org.kie}</version>
        </dependency>
        <dependency>
-         <groupId>org.jbpm</groupId>
+         <groupId>org.chtijbug.jbpm</groupId>
          <artifactId>jbpm-human-task-audit</artifactId>
          <version>${version.org.kie}</version>
          <classifier>sources</classifier>
        </dependency>
        <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-human-task-jpa</artifactId>
         <version>${version.org.kie}</version>
        </dependency>
        <dependency>
-         <groupId>org.jbpm</groupId>
+         <groupId>org.chtijbug.jbpm</groupId>
          <artifactId>jbpm-human-task-jpa</artifactId>
          <version>${version.org.kie}</version>
          <classifier>sources</classifier>
        </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-shared-services</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-shared-services</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-shared-services</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-examples</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-examples</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-docs</artifactId>
         <version>${version.org.kie}</version>
         <type>zip</type>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-docs</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-document</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-document</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-api</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-cdi</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-cdi</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-cdi</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
@@ -568,72 +568,72 @@
       </dependency>
       <!-- jbpm ejb services -->
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-api</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-impl</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-impl</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-impl</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-client</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-timer</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-timer</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-services-ejb-timer</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
@@ -641,36 +641,36 @@
       </dependency>
 
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-test-util</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-test-util</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-event-emitters-elasticsearch</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-event-emitters-elasticsearch</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-xes</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-xes</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
@@ -678,169 +678,169 @@
 
       <!-- jBPM WB -->
       <dependency>
-         <groupId>org.jbpm</groupId>
+         <groupId>org.chtijbug.jbpm</groupId>
          <artifactId>jbpm-wb-common-client</artifactId>
          <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-common-client</artifactId>
         <classifier>tests</classifier>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-         <groupId>org.jbpm</groupId>
+         <groupId>org.chtijbug.jbpm</groupId>
          <artifactId>jbpm-wb-common-api</artifactId>
          <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-         <groupId>org.jbpm</groupId>
+         <groupId>org.chtijbug.jbpm</groupId>
          <artifactId>jbpm-wb-data-filters-client</artifactId>
          <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-         <groupId>org.jbpm</groupId>
+         <groupId>org.chtijbug.jbpm</groupId>
          <artifactId>jbpm-wb-forms-client</artifactId>
          <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-         <groupId>org.jbpm</groupId>
+         <groupId>org.chtijbug.jbpm</groupId>
          <artifactId>jbpm-wb-forms-api</artifactId>
          <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-forms-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-human-tasks-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-human-tasks-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-human-tasks-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
 
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-integration-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-integration-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-integration-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
 
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-kie-server-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-kie-server-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-process-runtime-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-process-runtime-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-process-runtime-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-executor-service-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-executor-service-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-executor-service-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-dashboard-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-dashboard-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-dashboard-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-showcase</artifactId>
         <version>${version.org.kie}</version>
         <type>war</type>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-case-mgmt-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-case-mgmt-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-case-mgmt-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-case-mgmt-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-case-mgmt-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-case-mgmt-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-wb-case-mgmt-showcase</artifactId>
         <version>${version.org.kie}</version>
         <type>war</type>
@@ -848,17 +848,17 @@
 
       <!-- designer and jbpm-simulation -->
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-bpmn2-emfextmodel</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId><!-- TODO this groupId doesn't seem right -->
+        <groupId>org.chtijbug.drools</groupId><!-- TODO this groupId doesn't seem right -->
         <artifactId>jbpm-simulation</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId><!-- TODO this groupId doesn't seem right -->
+        <groupId>org.chtijbug.drools</groupId><!-- TODO this groupId doesn't seem right -->
         <artifactId>jbpm-simulation</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
@@ -866,12 +866,12 @@
 
       <!-- jbpm-process-svg -->
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>jbpm-process-svg</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>jbpm-process-svg</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
@@ -879,17 +879,17 @@
 
       <!-- service task repository -->
       <dependency>
-        <groupId>org.jbpm.contrib</groupId>
+        <groupId>org.chtijbug.jbpm.contrib</groupId>
         <artifactId>kafka-workitem</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm.contrib</groupId>
+        <groupId>org.chtijbug.jbpm.contrib</groupId>
         <artifactId>repository</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.jbpm.contrib</groupId>
+        <groupId>org.chtijbug.jbpm.contrib</groupId>
         <artifactId>repository</artifactId>
         <version>${version.org.kie}</version>
         <type>zip</type>
@@ -897,7 +897,7 @@
 
       <!-- droolsjbpm-tools -->
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>org.jbpm.eclipse</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>

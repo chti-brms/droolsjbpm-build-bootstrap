@@ -1,8 +1,0 @@
-version: "2.1"
-
-extends: ./project-dependencies.yaml
-
-dependencies:
-  - project: kiegroup/kie-docs
-    dependencies:
-      - project: kiegroup/droolsjbpm-build-bootstrap

@@ -4,13 +4,13 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kie</groupId>
+    <groupId>org.chtijbug.kie</groupId>
     <artifactId>kie-user-bom-parent</artifactId>
-    <version>7.74.0.Final</version>
+    <version>7.75.0-SNAPSHOT</version>
     <relativePath>../kie-user-bom-parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>org.drools</groupId>
+  <groupId>org.chtijbug.drools</groupId>
   <artifactId>drools-bom</artifactId>
   <packaging>pom</packaging>
 
@@ -70,7 +70,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-bom</artifactId>
         <type>pom</type>
         <version>${version.org.kie}</version>
@@ -88,151 +88,151 @@
       -->
       <!-- drools -->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-engine</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-engine</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-engine</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-engine-classic</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-engine-classic</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-engine-classic</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-core</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-core</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-core</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-ecj</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-ecj</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-ecj</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-mvel</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-mvel</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-mvel</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-legacy-test-util</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-serialization-protobuf</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-serialization-protobuf</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-serialization-protobuf</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-core-reflective</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-core-reflective</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-core-reflective</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-core-dynamic</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-core-dynamic</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-core-dynamic</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
@@ -240,94 +240,94 @@
       </dependency>
       <!-- Drools Model -->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-mvel-parser</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-mvel-parser</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-mvel-compiler</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-mvel-compiler</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-canonical-model</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-canonical-model</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-canonical-model</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-model-compiler</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-model-compiler</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-model-compiler</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-alphanetwork-compiler</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-alphanetwork-compiler</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-alphanetwork-compiler</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-ruleunit</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-ruleunit</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-ruleunit</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
@@ -335,77 +335,77 @@
       </dependency>
       <!-- /Drools Model -->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-compiler</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-compiler</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-compiler</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools.testcoverage</groupId>
+        <groupId>org.chtijbug.drools.testcoverage</groupId>
         <artifactId>drools-test-suite</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-cdi</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-cdi</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-cdi</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-verifier-drl</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-verifier-drl</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-verifier-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-verifier-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-verifier-core</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-verifier-core</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
@@ -413,12 +413,12 @@
 
       <!-- Traits -->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-traits</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-traits</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
@@ -426,251 +426,251 @@
 
       <!-- impact-analysis -->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-impact-analysis-model</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-impact-analysis-model</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-impact-analysis-parser</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-impact-analysis-parser</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-impact-analysis-graph-common</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-impact-analysis-graph-common</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-impact-analysis-graph-graphviz</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-impact-analysis-graph-graphviz</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-metric</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-metric</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-persistence-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-persistence-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-persistence-api</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-persistence-jpa</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-persistence-jpa</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-persistence-jpa</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-templates</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-templates</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-decisiontables</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-decisiontables</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-beliefs</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-beliefs</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>kie-pmml</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>kie-pmml</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-commons</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-commons</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-datamodel-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-datamodel-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-guided-dtable</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-guided-dtable</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-guided-dtree</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-guided-dtree</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-guided-template</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-guided-template</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-guided-scorecard</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-guided-scorecard</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-test-scenarios</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-workbench-models-test-scenarios</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>named-kiesession</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>default-kiesession</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>cdi-example</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>multiple-kbases</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
 
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <!-- Does this belong in the kie-bom or in the drools-bom ? -->
         <artifactId>kie-test-util</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-test-util</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-test-util</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
@@ -679,31 +679,31 @@
 
       <!--KIE Drools Workbench Playground -->
       <dependency>
-        <groupId>org.kie.workbench.playground</groupId>
+        <groupId>org.chtijbug.kie.workbench.playground</groupId>
         <artifactId>kie-decision-playground</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
 
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <!-- Does this belong in the kie-bom or in the drools-bom ? -->
         <artifactId>kie-ci</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <!-- Does this belong in the kie-bom or in the drools-bom ? -->
         <artifactId>kie-ci-osgi</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-ci</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-ci</artifactId>
         <version>${version.org.kie}</version>
         <type>test-jar</type>
@@ -711,35 +711,35 @@
       </dependency>
 
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-scorecards</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-scorecards</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-examples</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-examples</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-docs</artifactId>
         <version>${version.org.kie}</version>
         <type>zip</type>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-distribution</artifactId>
         <version>${version.org.kie}</version>
         <type>zip</type>
@@ -748,103 +748,103 @@
 
       <!-- droolsjbpm-integration -->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>droolsjbpm-integration-examples</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>droolsjbpm-integration-examples</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-osgi-integration</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-osgi-integration</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-karaf-features</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-karaf-features</artifactId>
         <version>${version.org.kie}</version>
         <classifier>features</classifier>
         <type>xml</type>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-karaf-itests</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
 
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-memory-compiler</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-memory-compiler</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
 
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-rhq-plugin</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
 
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-verifier-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-verifier-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-verifier-core</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-verifier-core</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-verifier-guided-decision-table-adapter</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-verifier-guided-decision-table-adapter</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-verifier-webworker</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-verifier-webworker</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
@@ -853,12 +853,12 @@
 
       <!-- DRL Extension -->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-drl-extension-server</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-drl-extension-server</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
@@ -867,567 +867,567 @@
 
       <!--Categories Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-categories-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-categories-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--Scenario Simulation Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scenario-simulation-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scenario-simulation-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scenario-simulation-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scenario-simulation-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scenario-simulation-editor-businesscentral-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scenario-simulation-editor-businesscentral-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scenario-simulation-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scenario-simulation-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-scenario-simulation-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-scenario-simulation-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-scenario-simulation-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-scenario-simulation-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--Test Scenario Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-test-scenario-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-test-scenario-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-test-scenario-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-test-scenario-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-test-scenario-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-test-scenario-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--Guided Rule Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-rule-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-rule-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-rule-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-rule-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-rule-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-rule-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--Guided Template Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-template-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-template-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-template-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-template-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-template-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-template-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--Legacy Fact Model API (Editor replaced by Data Modeller) -->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-factmodel-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-factmodel-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-factmodel-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-factmodel-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--Enum Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-enum-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-enum-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-enum-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-enum-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-enum-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-enum-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--DRL Text Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-drl-text-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-drl-text-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-drl-text-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-drl-text-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-drl-text-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-drl-text-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--Globals Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-globals-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-globals-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-globals-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-globals-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-globals-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-globals-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--Guided Decision Table Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtable-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtable-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtable-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtable-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtable-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtable-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--Guided Decision Tree Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtree-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtree-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtree-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtree-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtree-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-dtree-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--Guided Score Card Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-scorecard-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-scorecard-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-scorecard-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-scorecard-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-scorecard-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-guided-scorecard-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--DSL Text Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dsl-text-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dsl-text-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dsl-text-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dsl-text-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dsl-text-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dsl-text-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--XLS Decision Table Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dtable-xls-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dtable-xls-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dtable-xls-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dtable-xls-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dtable-xls-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-dtable-xls-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--XLS Scorecard Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scorecard-xls-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scorecard-xls-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scorecard-xls-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scorecard-xls-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scorecard-xls-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-scorecard-xls-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!-- Work Items Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-workitems-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-workitems-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-workitems-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-workitems-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-workitems-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-workitems-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <!--DRL Text Editor-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-pmml-text-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-pmml-text-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-pmml-text-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-pmml-text-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
@@ -1437,19 +1437,19 @@
 
       <!--drools-wb distribution-->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-ui</artifactId>
         <type>war</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-webapp</artifactId>
         <type>war</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-wb-webapp</artifactId>
         <classifier>sources</classifier>
         <version>${version.org.kie}</version>
@@ -1457,19 +1457,19 @@
 
       <!-- droolsjbpm-tools -->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>org.drools.eclipse</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>org.guvnor.tools</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>org.drools.updatesite</artifactId>
         <type>zip</type>
         <version>${version.org.kie}</version>
@@ -1477,13 +1477,13 @@
 
       <!-- droolsjbpm-build-distribution -->
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>droolsjbpm-integration-distribution</artifactId>
         <version>${version.org.kie}</version>
         <type>zip</type>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>droolsjbpm-tools-distribution</artifactId>
         <version>${version.org.kie}</version>
         <type>zip</type>

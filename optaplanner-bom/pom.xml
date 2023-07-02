@@ -4,13 +4,13 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kie</groupId>
+    <groupId>org.chtijbug.kie</groupId>
     <artifactId>kie-user-bom-parent</artifactId>
-    <version>7.74.0.Final</version>
+    <version>7.75.0-SNAPSHOT</version>
     <relativePath>../kie-user-bom-parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>org.optaplanner</groupId>
+  <groupId>org.chtijbug.optaplanner</groupId>
   <artifactId>optaplanner-bom</artifactId>
   <packaging>pom</packaging>
 
@@ -67,410 +67,410 @@
           Always declare the sources jar too and optionally the test-jar.
       -->
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-core</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-core</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-core</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-core</artifactId>
         <version>${version.org.kie}</version>
         <classifier>javadoc</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-common</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-common</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-common</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-common</artifactId>
         <version>${version.org.kie}</version>
         <classifier>javadoc</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-xstream</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-xstream</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-xstream</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-xstream</artifactId>
         <version>${version.org.kie}</version>
         <classifier>javadoc</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jaxb</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jaxb</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jaxb</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jaxb</artifactId>
         <version>${version.org.kie}</version>
         <classifier>javadoc</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jackson</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jackson</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jackson</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jackson</artifactId>
         <version>${version.org.kie}</version>
         <classifier>javadoc</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jsonb</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jsonb</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jsonb</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jsonb</artifactId>
         <version>${version.org.kie}</version>
         <classifier>javadoc</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jpa</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jpa</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jpa</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-persistence-jpa</artifactId>
         <version>${version.org.kie}</version>
         <classifier>javadoc</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-benchmark</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-benchmark</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-benchmark</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-benchmark</artifactId>
         <version>${version.org.kie}</version>
         <classifier>javadoc</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-test</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-test</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-test</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-test</artifactId>
         <version>${version.org.kie}</version>
         <classifier>javadoc</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-examples</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-examples</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-examples</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <!-- quarkus-integration -->
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-deployment</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-deployment</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-deployment</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jackson</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jackson</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jackson</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jackson-deployment</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jackson-deployment</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jackson-deployment</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jackson-integration-test</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jackson-integration-test</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jackson-integration-test</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jsonb</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jsonb</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jsonb</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jsonb-deployment</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jsonb-deployment</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jsonb-deployment</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jsonb-integration-test</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jsonb-integration-test</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-quarkus-jsonb-integration-test</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <!-- spring-integration -->
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-spring-boot-autoconfigure</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-spring-boot-autoconfigure</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-spring-boot-autoconfigure</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-spring-boot-starter</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-spring-boot-starter</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-spring-boot-starter</artifactId>
         <type>test-jar</type>
         <version>${version.org.kie}</version>
       </dependency>
       <!-- distribution -->
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-docs</artifactId>
         <type>zip</type>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-distribution</artifactId>
         <version>${version.org.kie}</version>
         <type>zip</type>
@@ -478,128 +478,128 @@
 
 
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-workbench-models-core</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-workbench-models-core</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-workbench-models-datamodel-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-workbench-models-datamodel-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-solver-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-solver-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-solver-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-solver-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-solver-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-solver-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-guided-rule-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-guided-rule-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-guided-rule-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-guided-rule-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-guided-rule-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-guided-rule-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-domain-editor-api</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-domain-editor-api</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-domain-editor-backend</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-domain-editor-backend</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-domain-editor-client</artifactId>
         <version>${version.org.kie}</version>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-domain-editor-client</artifactId>
         <version>${version.org.kie}</version>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-wb-ui</artifactId>
         <version>${version.org.kie}</version>
         <type>war</type>

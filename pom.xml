@@ -4,14 +4,12 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.jboss</groupId>
+    <groupId>org.chtijbug.jboss</groupId>
+    <version>36-chtijbug</version>
     <artifactId>jboss-parent</artifactId>
-    <!-- Keep in sync with jboss-parent version in kie-user-bom-parent/pom.xml -->
-    <version>36</version>
-    <relativePath/>
   </parent>
 
-  <groupId>org.kie</groupId>
+  <groupId>org.chtijbug.kie</groupId>
   <artifactId>kie-parent</artifactId>
   <packaging>pom</packaging>
   <!-- On updating the version, also look for these variations for OSGi stuff: "5.3.0.qualifier" and "5.3.0.SNAPSHOT" -->
@@ -22,7 +20,7 @@
   <!-- major.minor.micro.Final -->
   <!-- For example: 1.2.3 without the suffix ".Final" corrupts the OSGi eclipse updatesite -->
   <!-- For example: 1.2.3.M2 corrupts the OSGi eclipse updatesite update order -->
-  <version>7.74.0.Final</version>
+  <version>7.75.0-SNAPSHOT</version>
 
   <name>KIE (Drools, jBPM, OptaPlanner) parent</name>
   <description>
@@ -290,7 +288,7 @@
     <version.xpp3>${version.xmlpull}</version.xpp3>
 
     <!-- Internal dependencies -->
-    <version.org.kie>7.74.0.Final</version.org.kie>
+    <version.org.kie>${project.version}</version.org.kie>
     <version.org.drools>${version.org.kie}</version.org.drools>
     <version.org.optaplanner>${version.org.kie}</version.org.optaplanner>
     <version.org.jbpm>${version.org.kie}</version.org.jbpm>
@@ -436,9 +434,9 @@
     <version.kubernetes-client>4.7.2</version.kubernetes-client>
     <version.zjsonpatch>0.3.0</version.zjsonpatch>
     <version.arquillian-cube>1.0.0.Alpha15</version.arquillian-cube>
-    <jboss.releases.repo.url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/
+    <jboss.releases.repo.url>https://oss.sonatype.org/service/local/staging/deploy/maven2/
     </jboss.releases.repo.url>
-    <jboss.snapshots.repo.url>https://repository.jboss.org/nexus/content/repositories/snapshots/
+    <jboss.snapshots.repo.url>https://oss.sonatype.org/content/repositories/snapshots/
     </jboss.snapshots.repo.url>
 
     <!-- Latest release to be used by api-compatibility-check to check backwards compatibility of the Kie API. -->
@@ -551,9 +549,9 @@
   </pluginRepositories>
 
   <scm>
-    <connection>scm:git:https://github.com/kiegroup/droolsjbpm-build-bootstrap.git</connection>
-    <developerConnection>scm:git:git@github.com:kiegroup/droolsjbpm-build-bootstrap.git</developerConnection>
-    <url>https://github.com/kiegroup/droolsjbpm-build-bootstrap</url>
+    <connection>scm:git:https://github.com/chti-brms/droolsjbpm-build-bootstrap.git</connection>
+    <developerConnection>scm:git:git@github.com:chti-brms/droolsjbpm-build-bootstrap.git</developerConnection>
+    <url>https://github.com/chti-brms/droolsjbpm-build-bootstrap</url>
   </scm>
   <ciManagement>
     <system>jenkins</system>
@@ -561,7 +559,7 @@
   </ciManagement>
   <issueManagement>
     <system>jira</system>
-    <url>https://issues.jboss.org/browse/DROOLS</url>
+    <url>https://github.com/chti-brms/droolsjbpm-build-bootstrap/issues</url>
   </issueManagement>
   <developers>
     <developer>
@@ -923,7 +921,7 @@
                       <!-- kie-dmn-feel-gwt relies on duplicated resources to remove non-GWT-compatible dependencies
                            from kie-dmn-feel -->
                       <dependency>
-                        <groupId>org.kie</groupId>
+                        <groupId>org.chtijbug.kie</groupId>
                         <artifactId>kie-dmn-feel-gwt</artifactId>
                         <ignoreClasses>
                           <ignoreClass>*</ignoreClass>
@@ -958,7 +956,7 @@
 
                       <!-- ignore jboss-logging included in kie server router as it is required by undertow and uberjar usage-->
                       <dependency>
-                        <groupId>org.kie.server</groupId>
+                        <groupId>org.chtijbug.kie.server</groupId>
                         <artifactId>kie-server-router-proxy</artifactId>
                         <type>jar</type>
                         <ignoreClasses>
@@ -1588,7 +1586,7 @@
           <extensions>true</extensions>
         </plugin>
         <plugin>
-          <groupId>org.kie</groupId>
+          <groupId>org.chtijbug.kie</groupId>
           <artifactId>kie-gwthelper-maven-plugin</artifactId>
           <version>${version.org.kie.gwthelper.maven}</version>
         </plugin>
@@ -1693,7 +1691,7 @@
           <version>${version.com.github.spotbugs-maven-plugin}</version>
           <dependencies>
             <dependency>
-              <groupId>org.kie</groupId>
+              <groupId>org.chtijbug.kie</groupId>
               <artifactId>kie-build-tools</artifactId>
               <version>${version.org.kie}</version>
             </dependency>
@@ -1707,7 +1705,7 @@
           </configuration>
         </plugin>
         <plugin>
-          <groupId>org.kie</groupId>
+          <groupId>org.chtijbug.kie</groupId>
           <artifactId>kie-maven-plugin</artifactId>
           <version>${version.org.kie}</version>
         </plugin>
@@ -2251,7 +2249,7 @@
         - A element's inner order is <groupId>, <artifactId>, [<type>,] [<classifier>,] <version> (following Aether proper)
       -->
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>narayana-integration-bom</artifactId>
         <version>${version.org.kie}</version>
         <type>pom</type>
@@ -6419,7 +6417,7 @@
       </dependency>
 
       <dependency>
-        <groupId>org.kogito</groupId>
+        <groupId>org.chtijbug.kogito</groupId>
         <artifactId>gwt-jsonix-schema-compiler</artifactId>
         <version>${version.org.kogito.gwt-jsonix-schema-compiler}</version>
       </dependency>
@@ -6469,7 +6467,7 @@
 
       <!-- Used by kie-pmml-trusty projects -->
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-pmml-dependencies</artifactId>
         <version>${version.org.kie}</version>
       </dependency>

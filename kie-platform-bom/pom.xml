@@ -4,9 +4,9 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kie</groupId>
+    <groupId>org.chtijbug.kie</groupId>
     <artifactId>kie-user-bom-parent</artifactId>
-    <version>7.74.0.Final</version>
+    <version>7.75.0-SNAPSHOT</version>
     <relativePath>../kie-user-bom-parent/pom.xml</relativePath>
   </parent>
 
@@ -31,56 +31,56 @@
            from kie-parent.
            When adding new 3rd dependencies, do it in the kie-parent and not here! -->
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-bom</artifactId>
         <type>pom</type>
         <version>${version.org.kie}</version>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>org.drools</groupId>
+        <groupId>org.chtijbug.drools</groupId>
         <artifactId>drools-bom</artifactId>
         <type>pom</type>
         <version>${version.org.kie}</version>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>org.optaplanner</groupId>
+        <groupId>org.chtijbug.optaplanner</groupId>
         <artifactId>optaplanner-bom</artifactId>
         <type>pom</type>
         <version>${version.org.kie}</version>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>org.jbpm</groupId>
+        <groupId>org.chtijbug.jbpm</groupId>
         <artifactId>jbpm-bom</artifactId>
         <type>pom</type>
         <version>${version.org.kie}</version>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>org.kie.uberfire</groupId>
+        <groupId>org.chtijbug.kie.uberfire</groupId>
         <artifactId>kie-uberfire-extensions-bom</artifactId>
         <type>pom</type>
         <version>${version.org.kie}</version>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>org.kie.soup</groupId>
+        <groupId>org.chtijbug.kie.soup</groupId>
         <artifactId>kie-soup-bom</artifactId>
         <type>pom</type>
         <version>${version.org.kie}</version>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>kie-dmn-bom</artifactId>
         <type>pom</type>
         <version>${version.org.kie}</version>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>org.kie</groupId>
+        <groupId>org.chtijbug.kie</groupId>
         <artifactId>narayana-integration-bom</artifactId>
         <type>pom</type>
         <version>${version.org.kie}</version>
